@@ -13,7 +13,7 @@ import lombok.Data;
 @Data
 public class Book {
     @Id
-    private Long id;
+    private String id;
     @JsonProperty("Name")
     private String name;
     @JsonProperty("Price")
